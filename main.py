@@ -48,6 +48,6 @@ last_ten_closed = all_closeds[0:10]
 
 
 ## Converting to a csv file 
-dict = {'date': last_ten_dates, 'BTC Closing Value': last_ten_closed} 
+dict = {'Date': last_ten_dates, 'BTC Closing Value': last_ten_closed} 
 df = pd.DataFrame(dict) 
 df.to_csv('eur_btc_rates.csv')
