@@ -37,8 +37,10 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 
 ## Como executar o aplicativo:
 
-1) Execute no terminal: pip install requeriments.txt
-
+1) Execute no terminal:
+```bash
+pip install -r requirements.txt
+```
 2) O Selenium requer um driver para fazer interface com o seu navegador. Seguem links para alguns dos drivers de navegador mais populares:
 
 <table border="1" class="docutils">
