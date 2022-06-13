@@ -37,11 +37,20 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 
 ## Como executar:
 
-1) Execute no terminal:
+1) No terminal, vamos criar e ativar nosso ambiente virtual:
+
 ```bash
-pip install -r requirements.txt
+$ python3 -m venv venv
+
+$ source venv/bin/activate
 ```
-2) O Selenium requer um driver para fazer interface com o navegador. Seguem links para alguns dos drivers de navegador mais populares:
+2) Em seguida, vamos baixar as bibliotecas que iremos utilizar:
+
+```bash
+$ pip install -r requirements.txt
+```
+
+3) O Selenium requer um driver para fazer interface com o navegador. Seguem links para alguns dos drivers de navegador mais populares:
 
 <table border="1" class="docutils">
 <colgroup>
