@@ -35,7 +35,7 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 </table>
 
 
-## Como executar o aplicativo:
+## Como executar:
 
 1) Execute no terminal:
 ```bash
