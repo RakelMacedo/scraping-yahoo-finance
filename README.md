@@ -41,7 +41,7 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 ```bash
 pip install -r requirements.txt
 ```
-2) O Selenium requer um driver para fazer interface com o seu navegador. Seguem links para alguns dos drivers de navegador mais populares:
+2) O Selenium requer um driver para fazer interface com o navegador. Seguem links para alguns dos drivers de navegador mais populares:
 
 <table border="1" class="docutils">
 <colgroup>
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 </tbody>
 </table>
 
-Depois de baixar o driver de acordo com seu sistema operacional e navegador, faça o uplode do mesmo na raiz do projeto. 
+Depois de baixar o driver de acordo com seu sistema operacional, faça o uplode do mesmo na raiz do projeto. 
 No meu caso, esse arquivo em questão é o 'chromedriver' referente a versão mais recente do Driver do Chrome no momento. 
 
 Sinta-se a vontade para exclui-lo quando der o Fork no código, pois provavelmente esta versão já terá sido ultrapassada e baixando o seu próprio driver ele será desnecessário. Priorize sempre a versão mais recente ;)
