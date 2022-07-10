@@ -41,7 +41,7 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 ```
 $ git clone https://github.com/RakelMacedo/scraping-yahoo-finance.git
 
-$ cd scraping-yahoo-finance
+$ cd scraping-yahoo-finance/
 ```
 
 2) No terminal, vamos criar e ativar nosso ambiente virtual:
