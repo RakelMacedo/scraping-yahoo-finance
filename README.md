@@ -1,11 +1,11 @@
-# scraping-yahoo-finance
+## 📊  scraping-yahoo-finance
 
 Scraping com Python + Selenium + CSV
 
 Obtendo dados específicos - "Date" e "Close" - dos últimos 10 dias do Yahoo Finance
 e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colunas - “Date” e “BTC Closing Value”.
 
-## eur_btc_rates.csv
+### eur_btc_rates.csv
 ```bash
 ,Date,BTC Closing Value
 0,"Jun 12, 2022","26,560.93"
@@ -20,7 +20,7 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 9,"Jun 03, 2022","27,708.94"            
 ```
 
-## Tecnologias usadas:
+### 📑 Tecnologias usadas:
 <table>
   <tr>
     <td>Python</td>
@@ -35,15 +35,23 @@ e salvando-os em um arquivo CSV, chamado “eur_btc_rates.csv”, com duas colun
 </table>
 
 
-## Como executar:
+### 🔨 Como executar:
 
-1) No terminal, vamos criar e ativar nosso ambiente virtual:
+1) Clone o repositório e vá para a sua pasta:
+```
+$ git clone https://github.com/RakelMacedo/scraping-yahoo-finance.git
+
+$ cd scraping-yahoo-finance
+```
+
+2) No terminal, vamos criar e ativar nosso ambiente virtual:
 
 ```bash
 $ python3 -m venv venv
 
 $ source venv/bin/activate
 ```
+
 2) Em seguida, vamos baixar as bibliotecas que iremos utilizar:
 
 ```bash
@@ -80,4 +88,4 @@ Sinta-se a vontade para exclui-lo quando der o Fork no código, pois provavelmen
 
 ##
 
-Pronto! Você esta pronto para rodar o código e obter os dados do Yahoo Finance. =)
+✅ Pronto! Você esta pronto para rodar o código e obter os dados do Yahoo Finance. =)
