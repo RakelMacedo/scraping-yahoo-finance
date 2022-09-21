@@ -52,13 +52,13 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 ```
 
-2) Em seguida, vamos baixar as bibliotecas que iremos utilizar:
+3) Em seguida, vamos baixar as bibliotecas que iremos utilizar:
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-3) O Selenium requer um driver para fazer interface com o navegador. Seguem links para alguns dos drivers de navegador mais populares:
+4) O Selenium requer um driver para fazer interface com o navegador. Seguem links para alguns dos drivers de navegador mais populares:
 
 <table border="1" class="docutils">
 <colgroup>
